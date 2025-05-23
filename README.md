@@ -1,16 +1,39 @@
-## Hi there 👋
+# 👋 Hola, soy Pablo Ossandón
 
-<!--
-**pabloossandon88/pabloossandon88** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desarrollador de software con más de una década de experiencia, especializado en frontend moderno con sólidos conocimientos fullstack. Enfocado en rendimiento, escalabilidad y producto. Colaboro con equipos de diseño y negocio para construir experiencias digitales intuitivas y eficientes.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tecnologías principales
+
+- **Frontend:** React, Angular, Vue, JavaScript, TypeScript, HTML5, CSS3, Tailwind, Bootstrap  
+- **Backend:** Node.js, PHP (Phalcon), Express.js, Python, Django, PL/SQL  
+- **Herramientas:** Git, Figma, Jira, Postman, ClickUp  
+- **Bases de datos:** MySQL, PostgreSQL  
+- **Media/Streaming:** Video.js, HLS.js, JW Player  
+
+---
+
+## 📈 Estadísticas GitHub
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pabloossandon88&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pabloossandon88&layout=compact&theme=tokyonight)
+
+---
+
+## 🔁 Actividad reciente
+
+![Contribution Graph](https://github-readme-activity-graph.cyclic.app/graph?username=pabloossandon88&theme=tokyo-night)
+
+---
+
+## 🔗 Encuéntrame también en
+
+- [LinkedIn](https://linkedin.com/in/pabloossandontoro)
+- [GitHub](https://github.com/pabloossandon88)
+- Correo: pablo@ossandon.dev
+
+---
+
+_Gracias por visitar mi perfil. ¡Conectemos y creemos cosas increíbles!_
