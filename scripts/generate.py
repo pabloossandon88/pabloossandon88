@@ -8,7 +8,7 @@ import json
 import os
 import urllib.request
 from collections import Counter, OrderedDict
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from html import escape
 from pathlib import Path
 
@@ -17,14 +17,14 @@ ROOT = Path(__file__).resolve().parent.parent
 
 PROFILE = {
     "name": "Pablo Ossandón",
-    "role": "Frontend Developer · Chile",
-    "tagline": "Construyo interfaces rápidas y cuidadas con React y TypeScript.",
-    "stack": ["React", "TypeScript", "Next.js", "Node.js", "Supabase"],
+    "role": "Full Stack Developer · Applied AI · Remote 🌍",
+    "tagline": "Building end-to-end web products and integrating AI (LLMs & agents) into real apps.",
+    "stack": ["React", "TypeScript", "Node.js", "Supabase", "LLMs · AI Agents"],
 }
 
-MONTHS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-# Paleta categórica validada (orden fijo); "Otros" siempre en gris.
+# Paleta categórica validada (orden fijo); "Other" siempre en gris.
 THEMES = {
     "dark": {"bg": "#0d1117", "panel": "#161b22", "border": "#30363d", "text": "#e6edf3",
              "muted": "#8b949e", "grid": "#21262d", "accent": "#3987e5", "other": "#6e7681",
@@ -71,14 +71,6 @@ def fetch_stats():
     )["user"]
 
     created = datetime.fromisoformat(data["createdAt"].replace("Z", "+00:00"))
-    commits = 0
-    for year in range(created.year, datetime.now(timezone.utc).year + 1):
-        commits += graphql(
-            """query($login: String!, $from: DateTime!, $to: DateTime!) { user(login: $login) {
-                contributionsCollection(from: $from, to: $to) { totalCommitContributions }
-            } }""",
-            {"login": USER, "from": f"{year}-01-01T00:00:00Z", "to": f"{year}-12-31T23:59:59Z"},
-        )["user"]["contributionsCollection"]["totalCommitContributions"]
 
     languages = Counter()
     for repo in data["repositories"]["nodes"]:
@@ -86,17 +78,21 @@ def fetch_stats():
             languages[edge["node"]["name"]] += edge["size"]
 
     calendar = data["contributionsCollection"]["contributionCalendar"]
+    days = [day for week in calendar["weeks"] for day in week["contributionDays"]]
     months = OrderedDict()
-    for week in calendar["weeks"]:
-        for day in week["contributionDays"]:
-            key = day["date"][:7]
-            months[key] = months.get(key, 0) + day["contributionCount"]
+    streak = longest = 0
+    for day in days:
+        key = day["date"][:7]
+        months[key] = months.get(key, 0) + day["contributionCount"]
+        streak = streak + 1 if day["contributionCount"] else 0
+        longest = max(longest, streak)
 
     return {
         "created": created.date(),
         "repos": data["repositories"]["totalCount"],
         "followers": data["followers"]["totalCount"],
-        "commits": commits,
+        "active_days": sum(1 for day in days if day["contributionCount"]),
+        "longest_streak": longest,
         "contributions": calendar["totalContributions"],
         "languages": languages,
         "months": list(months.items())[-12:],
@@ -128,9 +124,10 @@ def header(c):
 def tiles(stats):
     years = (date.today() - stats["created"]).days // 365
     items = [
-        (f"{stats['commits']:,}", "commits"),
-        (f"{stats['contributions']:,}", "contribuciones · 12 meses"),
-        (f"{years}", f"años en GitHub · desde {stats['created'].year}"),
+        (f"{stats['contributions']:,}", "contributions · last 12 months"),
+        (stats["active_days"], "active days · last 12 months"),
+        (f"{stats['longest_streak']} days", "longest streak · last 12 months"),
+        (years, f"years on GitHub · since {stats['created'].year}"),
     ]
     gap, top, height = 16, 160, 84
     width = (W - 80 - gap * (len(items) - 1)) / len(items)
@@ -145,13 +142,13 @@ def tiles(stats):
 
 def languages_panel(c, stats, x, y, w, h):
     out = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" class="panel"/>',
-           text(x + 20, y + 34, "Lenguajes más usados", 15, weight=600)]
+           text(x + 20, y + 34, "Top languages", 15, weight=600)]
     total = sum(stats["languages"].values()) or 1
     top = stats["languages"].most_common(5)
     rows = [(name, size, c["series"][i]) for i, (name, size) in enumerate(top)]
     rest = total - sum(size for _, size in top)
     if rest > 0:
-        rows.append(("Otros", rest, c["other"]))
+        rows.append(("Other", rest, c["other"]))
 
     # barra apilada con 2px de separación entre segmentos
     bar_x, bar_y, bar_w = x + 20, y + 54, w - 40
@@ -178,7 +175,7 @@ def languages_panel(c, stats, x, y, w, h):
 
 def activity_panel(c, stats, x, y, w, h):
     out = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" class="panel"/>',
-           text(x + 20, y + 34, "Actividad · últimos 12 meses", 15, weight=600)]
+           text(x + 20, y + 34, "Activity · last 12 months", 15, weight=600)]
     months = stats["months"]
     peak = max((v for _, v in months), default=0) or 1
     chart_x, chart_w = x + 20, w - 40
