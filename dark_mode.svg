@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="540" viewBox="0 0 985 540">
+<title>Pablo Ossandón · GitHub</title>
+<style>
+.text {fill: #e6edf3;}
+.muted {fill: #8b949e;}
+.accent {fill: #3987e5;}
+.panel {fill: #161b22; stroke: #30363d;}
+.chip {fill: #161b22; stroke: #30363d;}
+.grid-line {stroke: #21262d; stroke-width: 1;}
+</style>
+<rect x="0.5" y="0.5" width="984" height="539" rx="16" fill="#0d1117" stroke="#30363d"/>
+<text x="40" y="70" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" class="text">Pablo Ossandón</text>
+<text x="40" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" text-anchor="start" class="accent">Frontend Developer · Chile</text>
+<text x="40" y="128" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="muted">Construyo interfaces rápidas y cuidadas con React y TypeScript.</text>
+<rect x="860.2" y="52" width="84.8" height="26" rx="13" class="chip"/>
+<text x="902.6" y="69" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">Supabase</text>
+<rect x="775.0" y="52" width="77.2" height="26" rx="13" class="chip"/>
+<text x="813.6" y="69" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">Node.js</text>
+<rect x="689.8" y="52" width="77.2" height="26" rx="13" class="chip"/>
+<text x="728.4" y="69" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">Next.js</text>
+<rect x="581.8" y="52" width="100.0" height="26" rx="13" class="chip"/>
+<text x="631.8" y="69" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">TypeScript</text>
+<rect x="511.8" y="52" width="62.0" height="26" rx="13" class="chip"/>
+<text x="542.8" y="69" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">React</text>
+<rect x="40.0" y="160" width="291.0" height="84" rx="12" class="panel"/>
+<text x="60.0" y="204" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">117</text>
+<text x="60.0" y="226" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">commits</text>
+<rect x="347.0" y="160" width="291.0" height="84" rx="12" class="panel"/>
+<text x="367.0" y="204" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,461</text>
+<text x="367.0" y="226" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">contribuciones · 12 meses</text>
+<rect x="654.0" y="160" width="291.0" height="84" rx="12" class="panel"/>
+<text x="674.0" y="204" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">12</text>
+<text x="674.0" y="226" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">años en GitHub · desde 2014</text>
+<rect x="40" y="260" width="444.5" height="240" rx="12" class="panel"/>
+<text x="60" y="294" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start" class="text">Lenguajes más usados</text>
+<clipPath id="lang-bar"><rect x="60" y="314" width="404.5" height="12" rx="6"/></clipPath>
+<g clip-path="url(#lang-bar)">
+<rect x="60.0" y="314" width="203.3" height="12" fill="#3987e5"/>
+<rect x="265.3" y="314" width="76.4" height="12" fill="#d95926"/>
+<rect x="343.6" y="314" width="74.8" height="12" fill="#199e70"/>
+<rect x="420.5" y="314" width="17.3" height="12" fill="#c98500"/>
+<rect x="439.8" y="314" width="15.7" height="12" fill="#d55181"/>
+<rect x="457.5" y="314" width="7.0" height="12" fill="#6e7681"/>
+</g>
+<circle cx="66.0" cy="355" r="6" fill="#3987e5"/>
+<text x="80.0" y="360" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">HTML</text>
+<text x="238.2" y="360" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">51.5%</text>
+<circle cx="268.2" cy="355" r="6" fill="#d95926"/>
+<text x="282.2" y="360" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">TypeScript</text>
+<text x="440.5" y="360" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">19.4%</text>
+<circle cx="66.0" cy="389" r="6" fill="#199e70"/>
+<text x="80.0" y="394" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">Python</text>
+<text x="238.2" y="394" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">19.0%</text>
+<circle cx="268.2" cy="389" r="6" fill="#c98500"/>
+<text x="282.2" y="394" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">JavaScript</text>
+<text x="440.5" y="394" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">4.4%</text>
+<circle cx="66.0" cy="423" r="6" fill="#d55181"/>
+<text x="80.0" y="428" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">CSS</text>
+<text x="238.2" y="428" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">4.0%</text>
+<circle cx="268.2" cy="423" r="6" fill="#6e7681"/>
+<text x="282.2" y="428" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" class="text">Otros</text>
+<text x="440.5" y="428" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="400" text-anchor="end" class="muted">1.8%</text>
+<rect x="500.5" y="260" width="444.5" height="240" rx="12" class="panel"/>
+<text x="520.5" y="294" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="start" class="text">Actividad · últimos 12 meses</text>
+<line x1="520.5" x2="925.0" y1="395.0" y2="395.0" class="grid-line" stroke-dasharray="3 4"/>
+<line x1="520.5" x2="925.0" y1="330.0" y2="330.0" class="grid-line" stroke-dasharray="3 4"/>
+<line x1="520.5" x2="925.0" y1="460" y2="460" class="grid-line"/>
+<path d="M526.4,460 V378.4 Q526.4,374.4 530.4,374.4 H544.4 Q548.4,374.4 548.4,378.4 V460 Z" fill="#3987e5"><title>nov 2025: 231</title></path>
+<text x="537.4" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">nov</text>
+<path d="M560.1,460 V416.2 Q560.1,412.2 564.1,412.2 H578.1 Q582.1,412.2 582.1,416.2 V460 Z" fill="#3987e5"><title>dic 2025: 129</title></path>
+<text x="571.1" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">dic</text>
+<path d="M593.8,460 V421.8 Q593.8,417.8 597.8,417.8 H611.8 Q615.8,417.8 615.8,421.8 V460 Z" fill="#3987e5"><title>ene 2026: 114</title></path>
+<text x="604.8" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">ene</text>
+<path d="M627.5,460 V376.6 Q627.5,372.6 631.5,372.6 H645.5 Q649.5,372.6 649.5,376.6 V460 Z" fill="#3987e5"><title>feb 2026: 236</title></path>
+<text x="638.5" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">feb</text>
+<path d="M661.2,460 V406.2 Q661.2,402.2 665.2,402.2 H679.2 Q683.2,402.2 683.2,406.2 V460 Z" fill="#3987e5"><title>mar 2026: 156</title></path>
+<text x="672.2" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">mar</text>
+<path d="M694.9,460 V442.9 Q694.9,438.9 698.9,438.9 H712.9 Q716.9,438.9 716.9,442.9 V460 Z" fill="#3987e5"><title>abr 2026: 57</title></path>
+<text x="705.9" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">abr</text>
+<text x="739.6" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">may</text>
+<path d="M762.3,460 V454.4 Q762.3,450.4 766.3,450.4 H780.3 Q784.3,450.4 784.3,454.4 V460 Z" fill="#3987e5"><title>jun 2026: 26</title></path>
+<text x="773.3" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">jun</text>
+<path d="M796.0,460 V448.4 Q796.0,444.4 800.0,444.4 H814.0 Q818.0,444.4 818.0,448.4 V460 Z" fill="#3987e5"><title>jul 2026: 42</title></path>
+<text x="807.0" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">jul</text>
+<text x="840.7" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">ago</text>
+<path d="M863.4,460 V444.4 Q863.4,440.4 867.4,440.4 H881.4 Q885.4,440.4 885.4,444.4 V460 Z" fill="#3987e5"><title>sep 2026: 53</title></path>
+<text x="874.4" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">sep</text>
+<path d="M897.1,460 V334.0 Q897.1,330.0 901.1,330.0 H915.1 Q919.1,330.0 919.1,334.0 V460 Z" fill="#3987e5"><title>oct 2026: 351</title></path>
+<text x="908.1" y="322.0" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" text-anchor="middle" class="text">351</text>
+<text x="908.1" y="480" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">oct</text>
+</svg>
