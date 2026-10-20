@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985" height="564" viewBox="0 0 985 564">
-<title>Pablo Ossandón · GitHub</title>
+<title>Pablo Ossandón Toro · GitHub</title>
 <style>
 .text {fill: #1f2328;}
 .muted {fill: #59636e;}
@@ -10,7 +10,7 @@
 .grid-line {stroke: #e4e8ec; stroke-width: 1;}
 </style>
 <rect x="0.5" y="0.5" width="984" height="563" rx="16" fill="#ffffff" stroke="#d0d7de"/>
-<text x="40" y="70" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" class="text">Pablo Ossandón</text>
+<text x="40" y="70" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" class="text">Pablo Ossandón Toro</text>
 <text x="945" y="62" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="600" text-anchor="end" class="muted">On GitHub since 2014</text>
 <text x="945" y="82" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400" text-anchor="end" class="muted">12 years on GitHub</text>
 <text x="40" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" text-anchor="start" class="accent">Full Stack Developer · Web · Mobile · Applied AI · Remote 🌍</text>

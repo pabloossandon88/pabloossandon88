@@ -17,7 +17,7 @@ USER = "pabloossandon88"
 ROOT = Path(__file__).resolve().parent.parent
 
 PROFILE = {
-    "name": "Pablo Ossandón",
+    "name": "Pablo Ossandón Toro",
     "role": "Full Stack Developer · Web · Mobile · Applied AI · Remote 🌍",
     "tagline": "Building web, mobile and backend apps end-to-end, and integrating AI (LLMs & agents) into real products.",
     "stack": ["TypeScript", "React", "Node.js", "Python", "PostgreSQL", "Supabase",
