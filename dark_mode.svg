@@ -34,13 +34,13 @@
 <rect x="790.0" y="148" width="145.6" height="26" rx="13" class="chip"/>
 <text x="862.8" y="165" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">LLMs · AI Agents</text>
 <rect x="40.0" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="60.0" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">2,789</text>
+<text x="60.0" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">2,802</text>
 <text x="60.0" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">total contributions · all time</text>
 <rect x="270.2" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="290.2" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,675</text>
+<text x="290.2" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,660</text>
 <text x="290.2" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">contributions · last 12 months</text>
 <rect x="500.5" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="520.5" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,287</text>
+<text x="520.5" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,300</text>
 <text x="520.5" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">contributions in 2026 · best year</text>
 <rect x="730.8" y="200" width="214.2" height="84" rx="12" class="panel"/>
 <text x="750.8" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">33</text>
@@ -80,26 +80,27 @@
 <line x1="520.5" x2="925.0" y1="435.0" y2="435.0" class="grid-line" stroke-dasharray="3 4"/>
 <line x1="520.5" x2="925.0" y1="370.0" y2="370.0" class="grid-line" stroke-dasharray="3 4"/>
 <line x1="520.5" x2="925.0" y1="500" y2="500" class="grid-line"/>
-<path d="M526.4,500 V476.2 Q526.4,472.2 530.4,472.2 H544.4 Q548.4,472.2 548.4,476.2 V500 Z" fill="#3987e5"><title>Dec 2025: 129</title></path>
+<path d="M526.4,500 V476.3 Q526.4,472.3 530.4,472.3 H544.4 Q548.4,472.3 548.4,476.3 V500 Z" fill="#3987e5"><title>Dec 2025: 129</title></path>
 <text x="537.4" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Dec</text>
-<path d="M560.1,500 V479.4 Q560.1,475.4 564.1,475.4 H578.1 Q582.1,475.4 582.1,479.4 V500 Z" fill="#3987e5"><title>Jan 2026: 114</title></path>
+<path d="M560.1,500 V479.5 Q560.1,475.5 564.1,475.5 H578.1 Q582.1,475.5 582.1,479.5 V500 Z" fill="#3987e5"><title>Jan 2026: 114</title></path>
 <text x="571.1" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Jan</text>
-<path d="M593.8,500 V453.1 Q593.8,449.1 597.8,449.1 H611.8 Q615.8,449.1 615.8,453.1 V500 Z" fill="#3987e5"><title>Feb 2026: 236</title></path>
+<path d="M593.8,500 V453.4 Q593.8,449.4 597.8,449.4 H611.8 Q615.8,449.4 615.8,453.4 V500 Z" fill="#3987e5"><title>Feb 2026: 236</title></path>
 <text x="604.8" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Feb</text>
-<path d="M627.5,500 V470.4 Q627.5,466.4 631.5,466.4 H645.5 Q649.5,466.4 649.5,470.4 V500 Z" fill="#3987e5"><title>Mar 2026: 156</title></path>
+<path d="M627.5,500 V470.5 Q627.5,466.5 631.5,466.5 H645.5 Q649.5,466.5 649.5,470.5 V500 Z" fill="#3987e5"><title>Mar 2026: 156</title></path>
 <text x="638.5" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Mar</text>
-<path d="M661.2,500 V491.7 Q661.2,487.7 665.2,487.7 H679.2 Q683.2,487.7 683.2,491.7 V500 Z" fill="#3987e5"><title>Apr 2026: 57</title></path>
+<path d="M661.2,500 V491.8 Q661.2,487.8 665.2,487.8 H679.2 Q683.2,487.8 683.2,491.8 V500 Z" fill="#3987e5"><title>Apr 2026: 57</title></path>
 <text x="672.2" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Apr</text>
 <text x="705.9" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">May</text>
 <path d="M728.6,500 V497.2 Q728.6,494.4 731.4,494.4 H747.8 Q750.6,494.4 750.6,497.2 V500 Z" fill="#3987e5"><title>Jun 2026: 26</title></path>
 <text x="739.6" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Jun</text>
-<path d="M762.3,500 V494.9 Q762.3,490.9 766.3,490.9 H780.3 Q784.3,490.9 784.3,494.9 V500 Z" fill="#3987e5"><title>Jul 2026: 42</title></path>
+<path d="M762.3,500 V495.0 Q762.3,491.0 766.3,491.0 H780.3 Q784.3,491.0 784.3,495.0 V500 Z" fill="#3987e5"><title>Jul 2026: 42</title></path>
 <text x="773.3" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Jul</text>
 <text x="807.0" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Aug</text>
 <path d="M829.7,500 V492.6 Q829.7,488.6 833.7,488.6 H847.7 Q851.7,488.6 851.7,492.6 V500 Z" fill="#3987e5"><title>Sep 2026: 53</title></path>
 <text x="840.7" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Sep</text>
-<path d="M863.4,500 V374.0 Q863.4,370.0 867.4,370.0 H881.4 Q885.4,370.0 885.4,374.0 V500 Z" fill="#3987e5"><title>Oct 2026: 603</title></path>
-<text x="874.4" y="362.0" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" text-anchor="middle" class="text">603</text>
+<path d="M863.4,500 V374.0 Q863.4,370.0 867.4,370.0 H881.4 Q885.4,370.0 885.4,374.0 V500 Z" fill="#3987e5"><title>Oct 2026: 606</title></path>
+<text x="874.4" y="362.0" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" text-anchor="middle" class="text">606</text>
 <text x="874.4" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Oct</text>
+<path d="M897.1,500 V498.9 Q897.1,497.9 898.2,497.9 H918.1 Q919.1,497.9 919.1,498.9 V500 Z" fill="#3987e5"><title>Nov 2026: 10</title></path>
 <text x="908.1" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Nov</text>
 </svg>
