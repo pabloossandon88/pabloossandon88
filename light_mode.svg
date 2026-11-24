@@ -34,13 +34,13 @@
 <rect x="790.0" y="148" width="145.6" height="26" rx="13" class="chip"/>
 <text x="862.8" y="165" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" text-anchor="middle" class="text">LLMs · AI Agents</text>
 <rect x="40.0" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="60.0" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">3,219</text>
+<text x="60.0" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">3,221</text>
 <text x="60.0" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">total contributions · all time</text>
 <rect x="270.2" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="290.2" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,906</text>
+<text x="290.2" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,908</text>
 <text x="290.2" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">contributions · last 12 months</text>
 <rect x="500.5" y="200" width="214.2" height="84" rx="12" class="panel"/>
-<text x="520.5" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,717</text>
+<text x="520.5" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">1,719</text>
 <text x="520.5" y="266" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" text-anchor="start" class="muted">contributions in 2026 · best year</text>
 <rect x="730.8" y="200" width="214.2" height="84" rx="12" class="panel"/>
 <text x="750.8" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="start" class="text">36</text>
@@ -102,6 +102,6 @@
 <path d="M863.4,500 V374.0 Q863.4,370.0 867.4,370.0 H881.4 Q885.4,370.0 885.4,374.0 V500 Z" fill="#2a78d6"><title>Oct 2026: 616</title></path>
 <text x="874.4" y="362.0" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" text-anchor="middle" class="text">616</text>
 <text x="874.4" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Oct</text>
-<path d="M897.1,500 V426.1 Q897.1,422.1 901.1,422.1 H915.1 Q919.1,422.1 919.1,426.1 V500 Z" fill="#2a78d6"><title>Nov 2026: 369</title></path>
+<path d="M897.1,500 V425.7 Q897.1,421.7 901.1,421.7 H915.1 Q919.1,421.7 919.1,425.7 V500 Z" fill="#2a78d6"><title>Nov 2026: 371</title></path>
 <text x="908.1" y="520" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" text-anchor="middle" class="muted">Nov</text>
 </svg>
